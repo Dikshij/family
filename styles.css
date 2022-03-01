@@ -40,3 +40,14 @@ body {
 .aboutUs img {
   width: 100%;
 }
+
+.aboutUs ul li:before {
+  font-family: 'FontAwesome';
+  content: url('https://api.iconify.design/ri/check-double-line.svg?color=blue');
+  margin: 0 5px 0 -15px;
+  color: blue;
+}
+
+.aboutUs ul {
+  list-style-type: none;
+}
