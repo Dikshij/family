@@ -2,10 +2,6 @@
   color: blue !important;
 }
 
-body {
-  background-color: lightcyan;
-}
-
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
