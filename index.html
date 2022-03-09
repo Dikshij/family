@@ -12,6 +12,11 @@
 
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/1.5.2/css/ionicons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
     />
 
@@ -253,7 +258,86 @@
         </div>
       </div>
 
-      <div class="photos"></div>
+      <div class="photos">
+        <h1>Recent Photos</h1>
+        <div class="d-flex p-2 bd-highlight">
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+
+        <div
+          class="carousel"
+          data-flickity='{ "lazyLoad": 2, "initialIndex": 2 }'
+        >
+          <div class="carousel-cell">
+            <img
+              class="carousel-cell-image"
+              data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/tulip.jpg"
+              alt="tulip"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img
+              class="carousel-cell-image"
+              data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/grapes.jpg"
+              alt="grapes"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img
+              class="carousel-cell-image"
+              data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/raspberries.jpg"
+              alt="raspberries"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img
+              class="carousel-cell-image"
+              data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/wolf.jpg"
+              alt="wolf"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img
+              class="carousel-cell-image"
+              data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/shore.jpg"
+              alt="sea"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img
+              class="carousel-cell-image"
+              data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/leaf-droplets.jpg"
+              alt="leaf droplets"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img
+              class="carousel-cell-image"
+              data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/gulls.jpg"
+              alt="gulls"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img
+              class="carousel-cell-image"
+              data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/touch-screen.jpg"
+              alt="touch screen"
+            />
+          </div>
+          <div class="carousel-cell">
+            <img
+              class="carousel-cell-image"
+              data-flickity-lazyload="https://bootstrapmade.com/demo/templates/MeFamily/assets/img/recent-photos/recent-photos-8.jpg"
+              alt="van"
+            />
+          </div>
+        </div>
+      </div>
     </div>
 
     <script
@@ -261,5 +345,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.pkgd.min.js"></script>
   </body>
 </html>
